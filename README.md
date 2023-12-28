@@ -29,7 +29,7 @@ Argo CD, özellikle Kubernetes üzerinde çalışan mikro servis tabanlı uygula
 # Helm Reposunun Eklenmesi
 
 helm repo add argo-cd https://argoproj.github.io/argo-helm <br>                                             
-helm repo update <br>
+<br> helm repo update <br>
 kubectl create namespace argocd <br>
 helm install argocd argo-cd/argo-cd -n argocd <br>
 kubectl get svc -n argocd argocd-server <br>
