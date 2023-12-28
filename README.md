@@ -29,10 +29,10 @@ Argo CD, özellikle Kubernetes üzerinde çalışan mikro servis tabanlı uygula
 # Helm Reposunun Eklenmesi
 
 helm repo add argo-cd https://argoproj.github.io/argo-helm <br>                                             
-helm repo update
-kubectl create namespace argocd
-helm install argocd argo-cd/argo-cd -n argocd
-kubectl get svc -n argocd argocd-server
-kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
-kubectl port-forward svc/argocd-server -n argocd 8080:443
+helm repo update <br>
+kubectl create namespace argocd <br>
+helm install argocd argo-cd/argo-cd -n argocd <br>
+kubectl get svc -n argocd argocd-server <br>
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d <br>
+kubectl port-forward svc/argocd-server -n argocd 8080:443 <br>
 
