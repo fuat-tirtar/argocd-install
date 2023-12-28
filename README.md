@@ -1,4 +1,4 @@
-# argocd-install
+# Argocd-install
 Argo CD, Kubernetes ortamları için kullanılan bir GitOps Continuous Deployment aracıdır. Argo CD, GitOps’un temel yapıtaşı olan Single Source of Truth modelini referans alan bir mimariye sahiptir. Kubernetes tanım dosyalarını birçok farklı yöntemle yazabilir ve bu Kubernetes objelerini Argo CD aracılığıyla Kubernetes ortamlarına deploy edebiliriz. 
 
 Argo CD belirli periyotlarda Kubernetes’e deploy edilmiş uygulamaları izler ve Git reposunda yer alan tanım dosyalarıyla karşılaştırmalar yapar. Herhangi bir farklılık durumunu kullanıcıyı bildirir veya istenilirse otomatik olarak senkronizasyon işlemini gerçekleştirir.
