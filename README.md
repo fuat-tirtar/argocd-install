@@ -4,7 +4,8 @@ Argo CD, Kubernetes ortamları için kullanılan bir GitOps Continuous Deploymen
 
 Argo CD belirli periyotlarda Kubernetes’e deploy edilmiş uygulamaları izler ve Git reposunda yer alan tanım dosyalarıyla karşılaştırmalar yapar. Herhangi bir farklılık durumunu kullanıcıyı bildirir veya istenilirse otomatik olarak senkronizasyon işlemini gerçekleştirir.
 
-![image](https://github.com/fuat-tirtar/argocd-kurulum/assets/58062840/194c05d5-3ee6-4227-aec2-d3a9f338ec1b)
+![image](https://github.com/fuat-tirtar/argocd-kurulum/assets/58062840/536cb2a3-012e-43ec-aa0e-d7a70cc42c7b)
+
 
 **1-GitOps Yaklaşımı:**
 Argo CD, GitOps prensiplerine dayanır. Bu prensiplere göre, uygulama durumu ve konfigürasyonu bir Git deposunda saklanır. Bu, uygulama durumu ve konfigürasyonunun kod gibi yönetilmesine ve takip edilmesine olanak tanır.
