@@ -34,7 +34,7 @@ Argo CD, özellikle Kubernetes üzerinde çalışan mikro servis tabanlı uygula
 
 
 - **Argo CD Kurulumu**
-- 
+
 ![image](https://github.com/fuat-tirtar/argocd-kurulum/assets/58062840/567ed0f4-b383-4bc5-ae39-a3c449295db9)
 
 kubectl create namespace argocd
