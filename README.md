@@ -1,4 +1,4 @@
-Argocd Nedir? 
+**Argocd Nedir?** 
 
 Argo CD, Kubernetes ortamları için kullanılan bir GitOps Continuous Deployment aracıdır. Argo CD, GitOps’un temel yapıtaşı olan Single Source of Truth modelini referans alan bir mimariye sahiptir. Kubernetes tanım dosyalarını birçok farklı yöntemle yazabilir ve bu Kubernetes objelerini Argo CD aracılığıyla Kubernetes ortamlarına deploy edebiliriz.
 
